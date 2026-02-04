@@ -15,12 +15,17 @@ Welcome to the **Horizon Observability** demo! This guide explains how to log in
 
 ## 🏃 How to Run the Demo
 
-### Using the script (Recommended)
-Right-click `start-demo.ps1` and select **"Run with PowerShell"**.
+### Using the scripts (Recommended)
+*   **To Start**: Right-click `start-demo.ps1` and select **"Run with PowerShell"**.
+*   **To Stop**: Right-click `stop-demo.ps1` and select **"Run with PowerShell"**.
 
 ### Using the command line
 ```powershell
+# Start
 docker-compose -f demo/docker-compose.yaml up -d --build
+
+# Stop
+docker-compose -f demo/docker-compose.yaml down
 ```
 
 ---

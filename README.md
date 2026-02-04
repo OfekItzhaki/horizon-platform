@@ -70,6 +70,8 @@ docker-compose up -d --build
 ```
 
 ### Accessing the Tools:
+*   **Start Demo**: Right-click `start-demo.ps1` -> Run with PowerShell.
+*   **Stop Demo**: Right-click `stop-demo.ps1` -> Run with PowerShell.
 *   **Grafana (Dashboards):** [http://localhost:3001](http://localhost:3001) (admin/admin)
 *   **Seq (Logs):** [http://localhost:8081](http://localhost:8081)
 *   **Jaeger (Traces):** [http://localhost:16686](http://localhost:16686)
